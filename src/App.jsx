@@ -40,7 +40,7 @@ const projects = [
     problem: 'Alur persuratan internal melibatkan banyak peran dan membutuhkan status dokumen yang jelas.',
     solution: 'Mengembangkan workflow persetujuan berbasis role, penentuan approver bertingkat, pengembalian revisi, dan pencatatan status dokumen.',
     stack: ['Laravel', 'PHP', 'MySQL', 'RBAC', 'Workflow'],
-    image: '/assets/nde.png', icon: Braces, visual: 'image'
+    image: `${import.meta.env.BASE_URL}assets/nde.png`, icon: Braces, visual: 'image'
   },
   {
     number: '04', type: 'ASSET MANAGEMENT', name: 'Asset Management',
@@ -48,7 +48,7 @@ const projects = [
     problem: 'Data aset membutuhkan struktur yang konsisten agar mudah dicari dan dikelola.',
     solution: 'Mengembangkan modul aset dan pengelolaan data berbasis web untuk mendukung operasional internal.',
     stack: ['Laravel', 'PHP', 'MySQL', 'Bootstrap'],
-    image: '/assets/asset.png', icon: Database, visual: 'image'
+    image: `${import.meta.env.BASE_URL}assets/asset.png`, icon: Database, visual: 'image'
   },
   {
     number: '05', type: 'DOCUMENT TRACKING', name: 'Terima Surat',
@@ -56,7 +56,7 @@ const projects = [
     problem: 'Status penyerahan surat perlu ditelusuri, termasuk siapa yang menerima dan kapan surat diserahkan.',
     solution: 'Membangun pencatatan surat beserta histori aksi, proses serah terima, dan rencana bukti foto penyerahan.',
     stack: ['Laravel', 'PHP', 'MySQL', 'File Upload'],
-    image: '/assets/surat.png', icon: Globe2, visual: 'image'
+    image: `${import.meta.env.BASE_URL}assets/surat.png`, icon: Globe2, visual: 'image'
   },
 ];
 
