@@ -130,7 +130,7 @@ function App() {
             <p className="hero-desc reveal-item delay-2">Gua Dwiki — developer yang membangun aplikasi web, mobile, dan sistem bisnis untuk bikin pekerjaan sehari-hari jadi lebih sederhana.</p>
             <div className="hero-actions reveal-item delay-3">
               <a className="btn btn-light" href="#work">Explore projects <ArrowDownRight size={16}/></a>
-              <a className="btn btn-outline" href="mailto:dwiki@sju.co.id">Contact me <ArrowUpRight size={15}/></a>
+              <a className="btn btn-outline" href="mailto:dwikiawaludin3@gmail.com">Contact me <ArrowUpRight size={15}/></a>
             </div>
           </div>
           <div className="hero-bottom mono reveal-item delay-3">
@@ -224,7 +224,8 @@ function App() {
             <p className="eyebrow">HAVE A PROJECT IN MIND?</p>
             <h2>Let's build<br/><em>something useful.</em></h2>
             <p>Butuh website, aplikasi mobile, atau sistem custom untuk bisnis? Yuk, ngobrolin ide lu.</p>
-            <a className="btn btn-light contact-button" href="mailto:dwiki@sju.co.id">Start a conversation <ArrowUpRight size={16}/></a>
+            <a className="btn btn-light contact-button" href="mailto:dwikiawaludin3@gmail.com">Email me <ArrowUpRight size={16}/></a>
+            <a className="btn btn-outline contact-button" href="https://wa.me/6282112140238" target="_blank" rel="noreferrer">Chat on WhatsApp <ArrowUpRight size={16}/></a>
           </div>
         </section>
       </main>
@@ -232,7 +233,7 @@ function App() {
       <footer className="footer mono">
         <a className="footer-brand" href="#home">dwiki<span>.</span></a>
         <span>DESIGNED & BUILT WITH PURPOSE</span>
-        <div><a href="mailto:dwiki@sju.co.id"><Mail size={14}/> EMAIL</a><a href="https://github.com/dwikiawaludin" target="_blank" rel="noreferrer"><Code2 size={14}/> GITHUB</a><span>© 2026</span></div>
+        <div><a href="mailto:dwikiawaludin3@gmail.com"><Mail size={14}/> EMAIL</a><a href="https://wa.me/6282112140238" target="_blank" rel="noreferrer"><Smartphone size={14}/> WHATSAPP</a><a href="https://github.com/dwikiawaludin" target="_blank" rel="noreferrer"><Code2 size={14}/> GITHUB</a><span>© 2026</span></div>
       </footer>
     </>
   );
